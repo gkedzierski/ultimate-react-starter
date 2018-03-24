@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "tslint:latest",
+    "tslint-react"
+  ],
+  "rules": {
+    "member-access": false,
+    "no-var-requires": false,
+    "no-implicit-dependencies": false,
+    "jsx-no-multiline-js": false,
+    "quotemark": false,
+    "no-submodule-imports": [
+      true,
+      "rxjs",
+      "react-dom/test-utils",
+      "svg-react-loader!"
+    ]
+  }
+}

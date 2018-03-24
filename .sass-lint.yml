@@ -1,0 +1,15 @@
+files:
+  include:
+    - src/**/*.scss
+rules:
+  property-sort-order:
+    - 1
+    -
+      order: smacss
+      separate_groups: true
+  no-url-domains: 0
+  no-url-protocols: 0
+  no-qualifying-elements: 0
+  force-element-nesting: 0
+  force-attribute-nesting: 0
+  force-pseudo-nesting: 0
