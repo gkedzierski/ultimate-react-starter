@@ -12,4 +12,7 @@ module.exports = webpackMerge(config, {
       },
     ],
   },
+  optimization: {
+    splitChunks: false,
+  },
 });
